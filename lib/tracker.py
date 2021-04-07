@@ -9,44 +9,38 @@ main_file = 'output.csv'
 
 
 def scrapeArrayToJson(data):
-    data = data
-    json = {'campaign_list': {'source': '38 Degrees', 'list': []}}
+    json = {'prca': {'source': 'prca', 'list': []}}
 
-    for page in data:
-        for campaign in page:
-            json['campaign_list']['list'].append({
-                'title': campaign[0],
-                'link': campaign[1],
-                'signatures': campaign[2],
-                'goal': campaign[3]
-            })
+    for campaign in data:
+        json['prca']['list'].append({
+            'name': campaign[0],
+            'employees': campaign[1],
+            'size': campaign[2],
+        })
     return json
 
 
 def initialWriteToCSV(data, file):
-    rows = data
     with open(file, mode='w') as csv_file:
-        fieldnames = ['Campaign Title', 'Link', 'Signatures',
-                      'Goal', 'Day Growth', 'Last Written']
+        fieldnames = ['name', 'employees', 'size']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
 
-        for row in rows:
-            writer.writerow({'Campaign Title': row['title'],
-                             'Link': row['link'],
-                             'Signatures': row['signatures'],
-                             'Goal': row['goal'],
-                             'Day Growth': '',
-                             'Last Written': today})
+        for row in data['prca']['list']:
+            print(row)
+            writer.writerow({'name': row['name'],
+                             'employees': row['employees'],
+                             'size': row['size']
+                             })
     print("Finished writing to CSV.")
 
 
-def runThirtyEightScript(url, file):
+def runPRCA(url, file):
     start = datetime.now()
     start_str = str(start)
     print("Started at: " + start_str)
     print("Working...\n")
-    
+
     # 1. Get data from CallScrape
     new_data = callScrape(url)
 
@@ -62,3 +56,7 @@ def runThirtyEightScript(url, file):
     total_time = end - start
     print(total_time)
 
+
+url = "https://register.prca.org.uk/register/current-register/"
+file = './output.csv'
+runPRCA(url, file)
