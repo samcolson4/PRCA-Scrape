@@ -42,4 +42,4 @@ def callScrape(url):
         macro_data.append(data)
 
 
-  return macro_data
+    return macro_data
