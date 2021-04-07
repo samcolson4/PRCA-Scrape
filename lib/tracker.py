@@ -15,14 +15,15 @@ def scrapeArrayToJson(data):
         json['prca']['list'].append({
             'name': campaign[0],
             'employees': campaign[1],
-            'size': campaign[2],
+            'clients': campaign[2],
+            'size': campaign[3]
         })
     return json
 
 
 def initialWriteToCSV(data, file):
     with open(file, mode='w') as csv_file:
-        fieldnames = ['name', 'employees', 'size']
+        fieldnames = ['name', 'employees', 'clients', 'size']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
 
@@ -30,6 +31,7 @@ def initialWriteToCSV(data, file):
             print(row)
             writer.writerow({'name': row['name'],
                              'employees': row['employees'],
+                             'clients': row['clients'],
                              'size': row['size']
                              })
     print("Finished writing to CSV.")

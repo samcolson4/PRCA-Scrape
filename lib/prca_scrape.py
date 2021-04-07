@@ -24,6 +24,22 @@ def practitionerPage(company):
     output = website + url_fix
     print(output)
 
+def calculateSize(size):
+    output = ""
+    
+    if size >= 30:
+        output = "Large"
+    elif size > 60:
+        output = "Very large"
+    elif size < 30 and size >= 10:
+        output = "Small"
+    elif size < 10:
+        output = "Very small"
+    else:
+        output = "CHECK"
+    
+    return output
+
 
 def callScrape(url):
     print("Printing: " + url)
@@ -36,9 +52,10 @@ def callScrape(url):
     for company in companies:
         name = company.find('h1').text
         employees = getEmployees(company) 
-        size = getClients(company)
+        clients = getClients(company)
+        size = calculateSize(clients)
 
-        data = [name, employees, size]
+        data = [name, employees, clients, size]
         macro_data.append(data)
 
 

@@ -1,128 +1,128 @@
-name,employees,size
-3x1 Group,5,6
-5654,7,10
-Access Partnership,7,9
-Anchor Hanover - Entry overdue,6,0
-APCO Worldwide,35,27
-Atlas Communications Partners Ltd.,12,17
-Atticus Communications ,8,7
-BCW (Burson Cohn & Wolfe),22,16
-BECG,54,234
-BIG Partnership,6,19
-Bolt Services UK Ltd,6,0
-Brands2Life,3,7
-Brevia Consulting,13,26
-Burkitt Communications Ltd (trading as Oxygen Strategy),9,12
-Cadno Communications Ltd,4,4
-Campaign Collective,15,31
-Cavendish  Advocacy,16,41
-Chambré Public Affairs,5,9
-Cherton Enterprise,3,37
-Christopher Morris (Individual Member),1,3
-Cicero Group,27,72
-Connect ,28,102
-Cratus Communications Ltd,26,103
-Denovo Strategy Limited,1,8
-Derbyshire County Council,1,0
-Deryn,8,47
-Devin Scobie (Individual Member),6,10
-DevoConnect,5,48
-do Different. ,1,2
-Edelman,23,29
-EPPA UK Ltd,1,2
-EUK Consulting,12,8
-Field Consulting,19,31
-FleishmanHillard UK,17,15
-Food and Drink Federation,4,1
-Forty Shillings,6,13
-Four Communications,18,59
-Freshwater UK,17,3
-FTI Consulting,48,73
-GK Strategy,21,30
-Good Relations,9,6
-Grasshopper Communications,8,24
-Grayling,41,62
-H+K Strategies,36,17
-Hanbury Strategy,28,27
-Hanover Communications,61,65
-Headland,30,30
-Healthcomms Consulting ,13,34
-Higginson Strategy,13,6
-Hume Brophy,8,12
-Illiam Costain McCade,1,0
-Incisive Health  - Entry overdue,33,46
-iNHouse Communications,14,21
-Inline Policy ,6,4
-Instinctif Partners,22,47
-Interel,26,56
-James Hockney (Individual Member),1,4
-James Turgoose (Individual Member),0,1
-JBP,20,26
-JFG Communications Ltd.,7,5
-John Lewis - Entry overdue,4,0
-Katarzyna Banas (Individual Member),0,10
-Ketchum,17,10
-Keystone Consulting,2,4
-Lansons,12,11
-Lexington Communications,63,166
-Liam Herbert (Individual Member) ,1,10
-Lodestone Communications,9,63
-London Chamber of Commerce and Industry,4,0
-London Communications Agency,51,97
-London Legacy Development Corporation,5,0
-Luther Pendragon,16,24
-M&F Health,11,12
-Madano Partnership,13,16
-Maitland/AMO,14,12
-Marks & Spencer ,4,0
-McKenna Townsend,8,11
-Message Matters,5,26
-MHP Communications,59,60
-Morrison Media,2,5
-MRM,1,3
-New Consensus Communications Limited,1,6
-NKA Public Affairs - Entry overdue,1,7
-Oakhill Communications/SVC Public Affairs,8,13
-Open Road ,17,3
-Orbit,8,33
-Ovid Consulting (trading as OVID Health),16,14
-Pagefield,27,27
-Pagoda,13,16
-Panjandrum Communications Limited - Entry overdue,2,2
-Park Street Partners Ltd,2,11
-Pernod Ricard UK,1,0
-Perspectiva Consultants,1,0
-Philip Morris International (PMI),7,0
-PLMR,43,76
-Political Intelligence,16,20
-Political Solutions ,0,1
-Portland,138,64
-Positif,8,67
-Principle Affairs Ltd,5,12
-Public First ,24,26
-Public Relations and Communications Association (PRCA),4,0
-Quiller Consultants,1,0
-Railway Industry Association,5,0
-Ranelagh Political Communications,1,7
-Scott Media,1,1
-SEC Newgate UK,41,107
-Sovereign Strategy,10,14
-Spink Health,12,8
-Staffordshire County Council,1,0
-Stonehaven,38,11
-Stratagem (NI) Ltd,9,41
-TALA,1,4
-Taso Advisory,4,9
-Tendo Consulting,10,26
-Teneo ,39,34
-Thakeham,5,0
-The AA,5,0
-The Blakeney Group,16,12
-The Law Society,14,2
-The PHA Group ,1,1
-The Terrapin Group,14,55
-University of Sussex,2,0
-WA Communications Ltd,33,49
-Weber Shandwick,35,49
-Westminster City Council,2,0
-Wise,7,0
+name,employees,clients,size
+3x1 Group,5,6,Very small
+5654,7,10,Small
+Access Partnership,7,9,Very small
+Anchor Hanover - Entry overdue,6,0,Very small
+APCO Worldwide,35,27,Small
+Atlas Communications Partners Ltd.,12,17,Small
+Atticus Communications ,8,7,Very small
+BCW (Burson Cohn & Wolfe),22,16,Small
+BECG,54,234,Large
+BIG Partnership,6,19,Small
+Bolt Services UK Ltd,6,0,Very small
+Brands2Life,3,7,Very small
+Brevia Consulting,13,26,Small
+Burkitt Communications Ltd (trading as Oxygen Strategy),9,12,Small
+Cadno Communications Ltd,4,4,Very small
+Campaign Collective,15,31,Large
+Cavendish  Advocacy,16,41,Large
+Chambré Public Affairs,5,9,Very small
+Cherton Enterprise,3,37,Large
+Christopher Morris (Individual Member),1,3,Very small
+Cicero Group,27,72,Large
+Connect ,28,102,Large
+Cratus Communications Ltd,26,103,Large
+Denovo Strategy Limited,1,8,Very small
+Derbyshire County Council,1,0,Very small
+Deryn,8,47,Large
+Devin Scobie (Individual Member),6,10,Small
+DevoConnect,5,48,Large
+do Different. ,1,2,Very small
+Edelman,23,29,Small
+EPPA UK Ltd,1,2,Very small
+EUK Consulting,12,8,Very small
+Field Consulting,19,31,Large
+FleishmanHillard UK,17,15,Small
+Food and Drink Federation,4,1,Very small
+Forty Shillings,6,13,Small
+Four Communications,18,59,Large
+Freshwater UK,17,3,Very small
+FTI Consulting,48,73,Large
+GK Strategy,21,30,Large
+Good Relations,9,6,Very small
+Grasshopper Communications,8,24,Small
+Grayling,41,62,Large
+H+K Strategies,36,17,Small
+Hanbury Strategy,28,27,Small
+Hanover Communications,61,65,Large
+Headland,30,30,Large
+Healthcomms Consulting ,13,34,Large
+Higginson Strategy,13,6,Very small
+Hume Brophy,8,12,Small
+Illiam Costain McCade,1,0,Very small
+Incisive Health  - Entry overdue,33,46,Large
+iNHouse Communications,14,21,Small
+Inline Policy ,6,4,Very small
+Instinctif Partners,22,47,Large
+Interel,26,56,Large
+James Hockney (Individual Member),1,4,Very small
+James Turgoose (Individual Member),0,1,Very small
+JBP,20,26,Small
+JFG Communications Ltd.,7,5,Very small
+John Lewis - Entry overdue,4,0,Very small
+Katarzyna Banas (Individual Member),0,10,Small
+Ketchum,17,10,Small
+Keystone Consulting,2,4,Very small
+Lansons,12,11,Small
+Lexington Communications,63,166,Large
+Liam Herbert (Individual Member) ,1,10,Small
+Lodestone Communications,9,63,Large
+London Chamber of Commerce and Industry,4,0,Very small
+London Communications Agency,51,97,Large
+London Legacy Development Corporation,5,0,Very small
+Luther Pendragon,16,24,Small
+M&F Health,11,12,Small
+Madano Partnership,13,16,Small
+Maitland/AMO,14,12,Small
+Marks & Spencer ,4,0,Very small
+McKenna Townsend,8,11,Small
+Message Matters,5,26,Small
+MHP Communications,59,60,Large
+Morrison Media,2,5,Very small
+MRM,1,3,Very small
+New Consensus Communications Limited,1,6,Very small
+NKA Public Affairs - Entry overdue,1,7,Very small
+Oakhill Communications/SVC Public Affairs,8,13,Small
+Open Road ,17,3,Very small
+Orbit,8,33,Large
+Ovid Consulting (trading as OVID Health),16,14,Small
+Pagefield,27,27,Small
+Pagoda,13,16,Small
+Panjandrum Communications Limited - Entry overdue,2,2,Very small
+Park Street Partners Ltd,2,11,Small
+Pernod Ricard UK,1,0,Very small
+Perspectiva Consultants,1,0,Very small
+Philip Morris International (PMI),7,0,Very small
+PLMR,43,76,Large
+Political Intelligence,16,20,Small
+Political Solutions ,0,1,Very small
+Portland,138,64,Large
+Positif,8,67,Large
+Principle Affairs Ltd,5,12,Small
+Public First ,24,26,Small
+Public Relations and Communications Association (PRCA),4,0,Very small
+Quiller Consultants,1,0,Very small
+Railway Industry Association,5,0,Very small
+Ranelagh Political Communications,1,7,Very small
+Scott Media,1,1,Very small
+SEC Newgate UK,41,107,Large
+Sovereign Strategy,10,14,Small
+Spink Health,12,8,Very small
+Staffordshire County Council,1,0,Very small
+Stonehaven,38,11,Small
+Stratagem (NI) Ltd,9,41,Large
+TALA,1,4,Very small
+Taso Advisory,4,9,Very small
+Tendo Consulting,10,26,Small
+Teneo ,39,34,Large
+Thakeham,5,0,Very small
+The AA,5,0,Very small
+The Blakeney Group,16,12,Small
+The Law Society,14,2,Very small
+The PHA Group ,1,1,Very small
+The Terrapin Group,14,55,Large
+University of Sussex,2,0,Very small
+WA Communications Ltd,33,49,Large
+Weber Shandwick,35,49,Large
+Westminster City Council,2,0,Very small
+Wise,7,0,Very small
