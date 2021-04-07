@@ -7,13 +7,13 @@ import re
 
 def getEmployees(company):
     numberStaff = company.find(class_="numberstaff").text
-    number = re.sub('\D', '', f'{numberStaff}')
+    number = re.sub('\\D', '', f'{numberStaff}')
     return int(number)
 
 
 def getClients(company):
     numberClients = company.find(class_="numberclients").text
-    number = re.sub('\D', '', f'{numberClients}')
+    number = re.sub('\\D', '', f'{numberClients}')
     return int(number)
 
 
